@@ -23,6 +23,8 @@ THEN I am taken to the corresponding section of the README
 
 const inquirer = require('inquirer');
 const fs = require('fs');
+const markDown = require('./utils/generateMarkdown');
+
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -57,7 +59,11 @@ const questions = () => {
         {
             type: 'input',
             name: 'description',
-            message: 'What is the description of your project (Required),  use the following questions as guide \n - What was your motivation? \n -Why did you build this specific project? \n - What problem does it solve? \n What did you learn? \n',
+            message: 'What is the description of your project (Required),  use the following questions as guide \
+            - What was your motivation? \
+            - Why did you build this specific project? \
+            - What problem does it solve? \
+            - What did you learn? ',
 
             validate: descriptionInput => {
                 if(descriptionInput){
@@ -67,13 +73,13 @@ const questions = () => {
                     return false;
                 }
             }
-        },
-        {
-            type: 'input',
-            name: 'Installation',
-            message: 'Please provide '
-
         }
+        // {
+        //     type: 'input',
+        //     name: 'Installation',
+        //     message: 'Please provide '
+
+        // }
     ])
 }
 
