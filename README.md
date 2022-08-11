@@ -5,7 +5,7 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
+  * [Contribution](#contribution)
   * [Tests](#tests)
   * [Licence](#licence)
   * [Questions](#questions)
@@ -25,7 +25,9 @@
   
   ## Tests
   I was not able to run the test instructions for this project, my apologies. 
-
+  
+  [![IMAGE ALT TEXT HERE](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/1oMIMu2IBpc)
+  
   ## Licence
   Licensed using Apache 2.0 
   You can find more information here https://opensource.org/licenses/Apache-2.0
