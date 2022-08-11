@@ -25,7 +25,7 @@ function renderLicenseLink(license) {
 }
 
 function renderLicenseSection(license) {
-  return `Licensed using ${license} \nYou can find more information here ${renderLicenseLink(license)}`
+  return `Licensed using ${license} \n  You can find more information here ${renderLicenseLink(license.linkLicense)}`
 }
 
 //Create a function to generate markdown for README
@@ -42,7 +42,7 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   * [Credits](#credits)
   
-  ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license.join(' '))}
   ## Description
   ${data.description}
 
@@ -67,7 +67,7 @@ function generateMarkdown(data) {
   ## Credits
   Github: https://github.com/${data.username}
 
-  Copyright ${data.username}. All rights Reserved. 
+  Copyright ${new Date().getFullYear()} by ${data.username}
 `;
 }
 

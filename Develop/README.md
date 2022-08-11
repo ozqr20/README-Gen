@@ -1,4 +1,4 @@
-# read gen
+# xxx
 
   # Table of Contents
   * [Description](#description)
@@ -10,30 +10,30 @@
   * [Questions](#questions)
   * [Credits](#credits)
   
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  undefined
   ## Description
-  testing description
+  xx
 
   ## Installation
-  testing installation
+  xxx
 
   ## Usage
-  testing usage
+  xx
 
   ## Contribution
-  testing contribution
+  xx
   
   ## Tests
-  testing instructions
+  xxx
 
   ## Licence
-  Licensed using Mozilla 
-You can find more information here https://opensource.org/licenses/MPL-2.0
+  Licensed using MIT,GNU GPLv3,GNU AGPLv3,GNU LGPLv3,Apache 2.0,Mozilla 
+  You can find more information here undefined
 
   ## Questions
-  Any questions please email me at o@gmail.com
+  Any questions please email me at xx
 
   ## Credits
-  Github: https://github.com/ozqr20
+  Github: https://github.com/x
 
-  Copyright ozqr20. All rights Reserved. 
+  Copyright 2022 by x

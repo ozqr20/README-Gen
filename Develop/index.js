@@ -112,7 +112,7 @@ const questions = () => {
             }
         },
         {
-            type: 'list',
+            type: 'checkbox',
             name: 'license',
             message: 'Please provice the requiere license ',
             choices: ['MIT', 'GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'Apache 2.0', 'Mozilla', 'unlicensed']
