@@ -10,28 +10,28 @@
   * [Questions](#questions)
   * [Credits](#credits)
   
-  undefined
+  unlicensed check here
   ## Description
-  xx
+  xxx
 
   ## Installation
   xxx
 
   ## Usage
-  xx
+  xxx
 
   ## Contribution
-  xx
+  xxx
   
   ## Tests
   xxx
 
   ## Licence
-  Licensed using MIT,GNU GPLv3,GNU AGPLv3,GNU LGPLv3,Apache 2.0,Mozilla 
+  Licensed using Apache 2.0,GNU GPLv3,MIT,Mozilla,GNU AGPLv3,GNU LGPLv3 
   You can find more information here undefined
 
   ## Questions
-  Any questions please email me at xx
+  Any questions please email me at x
 
   ## Credits
   Github: https://github.com/x

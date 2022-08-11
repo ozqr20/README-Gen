@@ -1,7 +1,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./generateMarkdown');
 
 const questions = () => {
     return inquirer.prompt([
@@ -115,7 +115,7 @@ const questions = () => {
             type: 'checkbox',
             name: 'license',
             message: 'Please provice the requiere license ',
-            choices: ['MIT', 'GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'Apache 2.0', 'Mozilla', 'unlicensed']
+            choices: ['Apache 2.0','GNU GPLv3', 'MIT', 'Mozilla', 'GNU AGPLv3', 'GNU LGPLv3']
         } 
     ])
 };
