@@ -24,7 +24,7 @@
   There are not contributions accepted at the moment, please check it out at a later time.
   
   ## Tests
-  I was not able to run the test instructions for this project, my apologies. 
+  You can click in the buttom image to take over my youtube channel to check this applcation live
   
   [![Screenshot (978)](https://user-images.githubusercontent.com/53874145/184253406-4162465e-d62c-4568-9e4f-38c4610c202f.png)](https://youtu.be/1oMIMu2IBpc)
   
