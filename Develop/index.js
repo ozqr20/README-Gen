@@ -1,11 +1,8 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
-const markDown = require('./utils/generateMarkdown');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-
-// TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
         {
@@ -41,7 +38,7 @@ const questions = () => {
             - What was your motivation? \
             - Why did you build this specific project? \
             - What problem does it solve? \
-            - What did you learn? ',
+            - What did you learn? \ ',
 
             validate: descriptionInput => {
                 if(descriptionInput){
@@ -108,13 +105,11 @@ const questions = () => {
     ])
 };
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(`${fileName}`, data, (err) =>
     err ? console.error(err): console.log('Checked'));
 }
 
-// TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions()
     .then((data) => {
