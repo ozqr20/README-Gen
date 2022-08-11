@@ -34,11 +34,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'description',
-            message: 'What is the description of your project (Required),  use the following questions as guide \
-            - What was your motivation? \
-            - Why did you build this specific project? \
-            - What problem does it solve? \
-            - What did you learn? \ ',
+            message: 'What is the description of your project (Required), use the following questions as guide: \n- What was your motivation? \n- Why did you build this specific project? \n- What problem does it solve? \n- What did you learn?\n ',
 
             validate: descriptionInput => {
                 if(descriptionInput){
@@ -111,10 +107,10 @@ function writeToFile(fileName, data) {
 }
 
 function init() {
-    inquirer.prompt(questions()
+    questions()
     .then((data) => {
         writeToFile('README.md', generateMarkdown(data))
-    }))
+    })
 };
 
 // Function call to initialize app
