@@ -26,7 +26,7 @@
   ## Tests
   I was not able to run the test instructions for this project, my apologies. 
   
-  [![IMAGE ALT TEXT HERE](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/1oMIMu2IBpc)
+  [![Screenshot (978)](https://user-images.githubusercontent.com/53874145/184253406-4162465e-d62c-4568-9e4f-38c4610c202f.png)](https://youtu.be/1oMIMu2IBpc)
   
   ## Licence
   Licensed using Apache 2.0 
