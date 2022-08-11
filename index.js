@@ -89,14 +89,6 @@ const questions = () => {
             type: 'input',
             name: 'contribution',
             message: 'Provice contribution requirements ',
-            validate: testInput => {
-                if(testInput){
-                    return true;
-                } else {
-                    console.log('Please provide the installation instructions')
-                    return false;
-                }
-            }
         },
         {
             type: 'input',
