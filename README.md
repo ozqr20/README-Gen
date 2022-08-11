@@ -10,7 +10,7 @@
   * [Questions](#questions)
   * [Credits](#credits)
   
-  unlicensed check here
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   ## Description
   xxx
 
@@ -27,11 +27,11 @@
   xxx
 
   ## Licence
-  Licensed using Apache 2.0,GNU GPLv3,MIT,Mozilla,GNU AGPLv3,GNU LGPLv3 
-  You can find more information here undefined
+  Licensed using Apache 2.0 
+  You can find more information here https://opensource.org/licenses/Apache-2.0
 
   ## Questions
-  Any questions please email me at x
+  Any questions please email me at xxx
 
   ## Credits
   Github: https://github.com/x
