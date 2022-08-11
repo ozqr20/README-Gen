@@ -20,6 +20,20 @@ const questions = () => {
         },
         {
             type: 'input',
+            name: 'email',
+            message: 'Enter email address for QA ',
+
+            validate: emailInput => {
+                if(emailInput){
+                    return true;
+                } else {
+                    console.log('Please provide a correct email')
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
             name:'title',
             message: 'What is your project title? (Required) ',
             validate: nameInput => {
@@ -34,7 +48,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'description',
-            message: 'What is the description of your project (Required), use the following questions as guide: \n- What was your motivation? \n- Why did you build this specific project? \n- What problem does it solve? \n- What did you learn?\n ',
+            message: 'What is the description of your project (Required), use the following questions as guide: \n- What was your motivation? \n- Why did you build this specific project? \n- What problem does it solve? \n- What did you learn? ',
 
             validate: descriptionInput => {
                 if(descriptionInput){
@@ -47,7 +61,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'Installation',
+            name: 'installation',
             message: 'Please provide the installation instructions ',
             validate: instalationInput => {
                 if(instalationInput){
@@ -60,7 +74,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'Usage Information',
+            name: 'usage',
             message: 'Please provide the usage information ',
             validate: usageInput => {
                 if(usageInput){
@@ -73,11 +87,10 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'Choose your licence',
-            message: 'Please the requiere licence ',
-            choices: ['MIT', 'GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'Apache', 'Mozilla', 'unlicensed'],
-            validate: licenceInput => {
-                if(licenceInput){
+            name: 'contribution',
+            message: 'Provice contribution requirements ',
+            validate: testInput => {
+                if(testInput){
                     return true;
                 } else {
                     console.log('Please provide the installation instructions')
@@ -87,7 +100,7 @@ const questions = () => {
         },
         {
             type: 'input',
-            name: 'test instructions',
+            name: 'tests',
             message: 'Please enter test instructions ',
             validate: testInput => {
                 if(testInput){
@@ -97,13 +110,19 @@ const questions = () => {
                     return false;
                 }
             }
+        },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'Please provice the requiere license ',
+            choices: ['MIT', 'GNU GPLv3', 'GNU AGPLv3', 'GNU LGPLv3', 'Apache 2.0', 'Mozilla', 'unlicensed']
         } 
     ])
 };
 
 function writeToFile(fileName, data) {
     fs.writeFile(`${fileName}`, data, (err) =>
-    err ? console.error(err): console.log('Checked'));
+    err ? console.error(err): console.log('README.md Created'));
 }
 
 function init() {
