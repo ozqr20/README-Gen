@@ -8,7 +8,6 @@
   * [Contribution](#contribution)
   * [Tests](#tests)
   * [Licence](#licence)
-  * [Questions](#questions)
   * [Credits](#credits)
   
   ## Description
@@ -32,8 +31,6 @@
   Licensed using Apache 2.0 
   You can find more information here https://opensource.org/licenses/Apache-2.0
 
-  ## Questions
-  Any questions please email me at ozqr20_0@hotmail.com
 
   ## Credits
   Github: https://github.com/ozqr20
